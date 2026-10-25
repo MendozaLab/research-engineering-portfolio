@@ -8,13 +8,15 @@ I contributed five proved classical counting variants and supporting finite-set 
 
 | Proved variant | Result |
 |---|---|
-| `elementary_difference_count` | For a Sidon set in `0,...,N`, `|A|(|A|-1) ≤ 2N`. |
-| `distinct_sums_card` | The sumset has `|A|(|A|+1)/2` elements. |
+| `elementary_difference_count` | For a Sidon set in `0,...,N`, `size(A)(size(A)-1) ≤ 2N`. |
+| `distinct_sums_card` | The sumset has `size(A)(size(A)+1)/2` elements. |
 | `distinct_sums_in_range` | A set in `0,...,N` has its sumset in `0,...,2N`. |
-| `erdos_turan_counting` | Combining cardinality and containment gives `|A|(|A|+1)/2 ≤ 2N+1`. |
-| `lindstrom_weak` | The elementary difference bound gives `|A| ≤ floor(sqrt(2N)) + 1`. |
+| `erdos_turan_counting` | Combining cardinality and containment gives `size(A)(size(A)+1)/2 ≤ 2N+1`. |
+| `lindstrom_weak` | The elementary difference bound gives `size(A) ≤ floor(sqrt(2N)) + 1`. |
 
 These are classical bounds, not new extremal mathematics. The submission discloses Claude/Codex assistance with drafting and source checking, and Perplexity assistance with citation lookup.
+
+Here `size(A)` means the number of elements in the finite set.
 
 ## Inspectable implementation
 
